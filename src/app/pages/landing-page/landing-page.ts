@@ -4,7 +4,9 @@ import { MatButtonModule } from '@angular/material/button';
 @Component({
   imports: [MatButtonModule],
   selector: 'app-landing-page',
-  styleUrl: './landing-page.css',
+  styleUrl: './landing-page.scss',
   templateUrl: './landing-page.html',
 })
-export class LandingPage {}
+export class LandingPage {
+  protected readonly currentYear = new Date().getFullYear();
+}
