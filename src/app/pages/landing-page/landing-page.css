@@ -1,0 +1,245 @@
+.main-page {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  .first-container {
+    padding-left: 250px;
+    padding-right: 250px;
+    .section-one {
+      a {
+        text-decoration: none;
+        color: #52605a;
+      }
+      .header-section {
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(25, 33, 30, 0.14);
+      }
+
+      .wordmark {
+        color: #19211e;
+        font:
+          700 1.2rem / 1 DM Mono,
+          monospace;
+        letter-spacing: -0.12em;
+        text-decoration: none;
+      }
+      .dot {
+        color: #e66645;
+        font:
+          700 1.2rem / 1 DM Mono,
+          monospace;
+
+        text-decoration: none;
+      }
+      .nav {
+        display: flex;
+        gap: 29px;
+        font-family:
+          DM Mono,
+          monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .github {
+        font-family:
+          DM Mono,
+          monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .eyebrow {
+    color: #52605a;
+    font:
+      0.69rem DM Mono,
+      monospace;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    span {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #e66645;
+    }
+  }
+
+  .sub-msg-text {
+    color: #52605a;
+    font:
+      0.69rem DM Mono,
+      monospace;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+  .second-row {
+    margin-top: 70px;
+  }
+  .third-row {
+    margin-top: 120px;
+  }
+
+  h1 {
+    font-family: 'DM Serif Display', Georgia, serif;
+    font-size: clamp(3.8rem, 7.2vw, 7.35rem);
+    line-height: 1;
+    letter-spacing: -0.065em;
+    font-weight: 400;
+  }
+
+  em {
+    color: #e66645;
+    font-weight: 400;
+  }
+
+  .seven-years {
+    color: #53605a;
+    font-size: 1.04rem;
+    line-height: 1.55;
+    margin-bottom: 25px;
+    .exp {
+      font-family:
+        DM Mono,
+        monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+  }
+
+  .second-container {
+    margin-top: 100px;
+    background-color: #dce2d7;
+    padding-left: 250px;
+    padding-right: 250px;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+
+    > .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+
+    .little-about {
+      font-family:
+        DM Mono,
+        monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-top: 100px !important;
+      padding-top: 100px;
+      color: #e66645;
+    }
+    .my-detail {
+      padding-top: 50px;
+      font-family: 'DM Serif Display', Georgia, serif;
+      font-size: 3rem;
+      line-height: 0.91;
+      letter-spacing: -0.065em;
+      font-weight: 400;
+      padding-bottom: 100px;
+    }
+  }
+
+  .third-container {
+    margin-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    .first-row {
+      .first-col {
+        font-family:
+          DM Mono,
+          monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #e66645;
+      }
+      .second-col {
+        color: #53605a;
+        font-size: 1.04rem;
+        line-height: 1.55;
+        text-align: end;
+      }
+    }
+    .second-row {
+      .first-col {
+        font-family:
+          DM Mono,
+          monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #e66645;
+      }
+
+      .second-col {
+        display: flex;
+        align-items: center;
+
+        .job-title {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.12em;
+          line-height: 0.9;
+
+          .company {
+            font-family:
+              DM Mono,
+              monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.04em;
+            text-transform: none;
+            color: #19211e;
+          }
+
+          .designation {
+            color: #53605a;
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: clamp(2rem, 2.8vw, 3rem);
+            line-height: 0.9;
+            letter-spacing: -0.065em;
+            font-weight: 400;
+            display: block;
+            margin: 0;
+          }
+        }
+      }
+
+      .third-col {
+        font-family:
+          DM Mono,
+          monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .fourth-col {
+        color: #53605a;
+        font-size: 1.04rem;
+        line-height: 1.55;
+        margin-bottom: 25px;
+      }
+
+      .second-row {
+        background-color: aqua;
+      }
+    }
+  }
+}

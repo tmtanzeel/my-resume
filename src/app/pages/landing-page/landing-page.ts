@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  imports: [],
+  imports: [MatButtonModule],
   selector: 'app-landing-page',
   styleUrl: './landing-page.css',
   templateUrl: './landing-page.html',
