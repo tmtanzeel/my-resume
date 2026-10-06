@@ -39,7 +39,7 @@ export class LandingPage implements OnInit {
   }
 
   open() {
-    this._snackBar.open('No AI was used/harmed while making this website!!', 'Ok', {
+    this._snackBar.open('No AI was harmed while making this website!!', 'Ok', {
       horizontalPosition: this.horizontalPosition(),
       verticalPosition: this.verticalPosition(),
       duration: 5000,
