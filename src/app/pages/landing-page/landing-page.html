@@ -6,8 +6,13 @@
       <a href="#work">Highlights</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="header-link" href="https://github.com/tmtanzeel" target="_blank" rel="noreferrer"
-      >GitHub <span aria-hidden="true">↗</span></a
+    <a
+      matTooltip="I built it. You fork it. Everybody wins."
+      class="header-link"
+      href="https://github.com/tmtanzeel"
+      target="_blank"
+      rel="noreferrer"
+      ><i class="bi bi-github"></i>&nbsp;GitHub<span aria-hidden="true">&nbsp;↗</span></a
     >
   </header>
 
@@ -16,12 +21,16 @@
     <div class="hero-grid">
       <div>
         <p class="kicker">Software Engineer · Bangalore, India</p>
-        <h1>I design and build<br /><em>thoughtful</em> software.</h1>
+        <h1>I design and build<br /><em>thoughtful</em> softwares.</h1>
       </div>
       <div class="hero-note">
         <p>
-          Seven years of shaping dependable digital experiences—from ambitious ideas to well-crafted
-          products.
+          <a
+            style="text-decoration: none; color: #e66746"
+            matTooltip="Actually, {{ daysElapsed }} to be exact."
+            >Seven years</a
+          >
+          of shaping dependable digital experiences—from ambitious ideas to well-crafted products.
         </p>
         <a class="text-link" href="#experience"
           >Explore my journey <span aria-hidden="true">↓</span></a
@@ -109,16 +118,56 @@
     </div>
   </section>
 
+  <section class="section-pad responsibilities">
+    <div class="section-heading">
+      <p class="section-label">My responsibilities</p>
+      <h2>
+        As a Frontend Engineer, I turn design intent into usable, accessible, responsive interfaces.
+      </h2>
+    </div>
+
+    <div class="responsibility-copy">
+      <p>
+        I can turn Figma designs into usable, accessible, responsive interfaces that feel polished,
+        fast, and dependable across devices.
+      </p>
+      <p>
+        I also help shape the product experience through thoughtful implementation, strong UI craft,
+        and collaboration with design and engineering teams.
+      </p>
+    </div>
+
+    <div class="skills-grid" aria-label="Frontend engineering skills">
+      <span>UI/UX implementation</span>
+      <span>JavaScript/TypeScript</span>
+      <span>React/Angular</span>
+      <span>HTML/CSS</span>
+      <span>State management</span>
+      <span>API integration</span>
+      <span>Performance</span>
+      <span>Architecture</span>
+      <span>Testing</span>
+      <span>Accessibility</span>
+      <span>Design systems</span>
+      <span>Backend understanding</span>
+    </div>
+  </section>
+
   <section class="contact" id="contact">
     <p class="section-label">Let’s work together</p>
     <h2>Have an interesting<br />problem to solve?</h2>
     <a class="contact-link" href="https://github.com/tmtanzeel" target="_blank" rel="noreferrer"
       >Find me on GitHub <span aria-hidden="true">↗</span></a
     >
+    <br />
+    <br /><br />
+    <p class="section-label">Call +91 8979539377 or Email: tmtanzeel9@gmail.com</p>
   </section>
 
   <footer>
-    <span>© {{ currentYear }} Tanzeel Mirza</span><span>Built with Angular</span
+    <span>©? Nah - Take it, remix it, make it weird.</span
+    ><span
+      >Built with <i class="bi bi-suit-heart-fill" style="color: #e66746"></i> and Angular v22</span
     ><a href="#top">Back to top ↑</a>
   </footer>
 </main>

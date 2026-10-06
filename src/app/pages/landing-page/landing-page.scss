@@ -347,6 +347,57 @@ blockquote {
     monospace;
   text-transform: uppercase;
 }
+.responsibilities {
+  background: #f5f3eb;
+  max-width: none;
+  padding-left: max(44px, calc((100vw - 1192px) / 2));
+  padding-right: max(44px, calc((100vw - 1192px) / 2));
+}
+.responsibilities .section-heading {
+  display: block;
+  margin-bottom: 28px;
+}
+.responsibilities .section-heading h2 {
+  max-width: 920px;
+  font:
+    clamp(2.2rem, 4vw, 4rem)/1.04 'DM Serif Display',
+    Georgia,
+    serif;
+  letter-spacing: -0.05em;
+  color: #19211e;
+}
+.responsibility-copy {
+  max-width: 860px;
+  display: grid;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+.responsibility-copy p {
+  color: #4f5d57;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.skills-grid span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #e7e1d4;
+  color: #1f2a26;
+  border: 1px solid rgba(25, 33, 30, 0.12);
+  border-radius: 999px;
+  padding: 0.8rem 1.1rem;
+  font:
+    0.7rem 'DM Mono',
+    monospace;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  box-shadow: 0 10px 24px rgba(25, 33, 30, 0.04);
+}
 .contact {
   background: #eae8dc;
   text-align: center;
